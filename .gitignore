@@ -3,3 +3,6 @@
 ################################################################################
 
 /TestApplication/obj/Debug
+/TestApplication/bin
+/packages
+/.vs/TestApplication
