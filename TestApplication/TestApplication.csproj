@@ -113,9 +113,9 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
-    <None Include="Dockerfile">
+    <AdditionalFiles Include="Dockerfile">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </AdditionalFiles>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
