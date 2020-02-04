@@ -9,7 +9,7 @@ RUN mkdir C:\TestApplication
 # configure the new site in IIS.
 RUN powershell -NoProfile -Command \
     Import-module IISAdministration; \
-    New-IISSite -Name "TestApplication" -PhysicalPath C:\TestApplication -BindingInformation "http/*:80:"
+    New-IISSite -Name "TestApplication" -PhysicalPath C:\TestApplication -BindingInformation "*:80:"
 
 # This instruction tells the container to listen on port 8888. 
 EXPOSE 80
