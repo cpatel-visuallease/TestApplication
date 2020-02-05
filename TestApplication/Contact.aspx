@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="TestApplication.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <div id="header" style="height: 50px; width: 100%; background-color:cornflowerblue; ">
+    <div id="header" style="height: 50px; width: 100%; background-color:antiquewhite; ">
     <h2><%: Title %>.</h2>
     </div>
     <h3>Your contact page.</h3>
