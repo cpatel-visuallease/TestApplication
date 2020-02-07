@@ -4,7 +4,7 @@
     <div id="header" style="height: 50px; width: 100%; background-color:antiquewhite; ">
     <h2><%: Title %>.</h2>
     </div>
-    <h3>Your contact page.</h3>
+    <h3>Your contact page. Hello World !</h3>
     <address>
         One Microsoft Way<br />
         Redmond, WA 98052-6399<br />
